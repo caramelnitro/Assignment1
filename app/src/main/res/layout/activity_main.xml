@@ -15,7 +15,7 @@
         android:layout_marginBottom="164dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="In the random version of Tic-Tac-Toe a coin toss determines which player will take the turn."
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.487"

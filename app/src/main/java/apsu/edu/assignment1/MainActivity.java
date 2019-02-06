@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
         Button b = findViewById(R.id.backButton);
         b.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
-                Intent intent = new Intent();
+                Intent intent = new Intent(getApplicationContext(), RulesActivity.class);
+                startActivity(intent);
             }
         });
-
     }
 }

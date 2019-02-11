@@ -26,9 +26,6 @@
             </intent-filter>
         </activity>
         <activity android:name="apsu.edu.assignment1.RulesActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.RUN" />
-            </intent-filter>
         </activity>
 
         <provider

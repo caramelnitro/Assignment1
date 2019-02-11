@@ -4,36 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#14c9a5"
     tools:context=".RulesActivity">
 
     <TextView
         android:id="@+id/random_textView"
-        android:layout_width="315dp"
-        android:layout_height="77dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
         android:layout_marginTop="32dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="8dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="In the random version of Tic-Tac-Toe a coin toss determines which player will take the turn."
-        android:textColor="@color/colorAccent"
+        android:text="The random version of Tic-Tac-Toe uses a coin toss determines which player will take the turn. The first player to get three in a row wins the game!"
+        android:textColor="#760299 "
         android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/treble_textView"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/backButton"
-        android:layout_width="83dp"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="casual"
+        android:text="Back"
+        android:textColor="#14C9A5 "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/treble_textView" />
+
+    <TextView
+        android:id="@+id/treble_textView"
+        android:layout_width="275dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Back"
+        android:layout_marginBottom="64dp"
+        android:text="The Treblecross version is played on a 1 by n board with any length equal to division of 3. Both players use the same symbol. The player to get three in a row wins the game!"
+        android:textColor="#760299 "
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/backButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/random_textView" />
 
 </android.support.constraint.ConstraintLayout>

@@ -630,6 +630,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable letter_o
+drawable letter_x
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -840,6 +842,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_game
 layout activity_main
 layout activity_rules

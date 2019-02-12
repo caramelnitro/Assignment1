@@ -28,6 +28,8 @@
         </activity>
         <activity android:name="apsu.edu.assignment1.RulesActivity" >
         </activity>
+        <activity android:name="apsu.edu.assignment1.GameActivity" >
+        </activity>
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

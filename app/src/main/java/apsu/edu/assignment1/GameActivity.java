@@ -16,6 +16,25 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstance);
         setContentView(R.layout.activity_game);
         int rand = r.nextInt(10) + 1;
+        ImageButton ib = findViewById(R.id.imageButton);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton2);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton3);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton4);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton5);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton6);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton7);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton8);
+        ib.setOnClickListener(this);
+        ib = findViewById(R.id.imageButton9);
+        ib.setOnClickListener(this);
+
         if(rand % 2 == 0) {
             x = true;
         }

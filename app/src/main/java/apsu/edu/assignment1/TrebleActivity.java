@@ -99,6 +99,7 @@ public class TrebleActivity extends AppCompatActivity implements View.OnClickLis
             } else {
                 tv.setText("Winner: player2");
             }
+            tv.setVisibility(View.VISIBLE);
         }
     }
 }

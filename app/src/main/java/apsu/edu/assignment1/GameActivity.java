@@ -1,5 +1,6 @@
 package apsu.edu.assignment1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -65,8 +66,12 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v){
         final int buttonId = v.getId();
         TextView tv = findViewById(R.id.turnTv);
+        if(findViewById(R.id.trebleButton).getId() == buttonId){
+            Intent intent = new Intent(getApplicationContext(), TrebleActivity.class);
+            startActivity(intent);
+        }
         //make sure we are playing the random game, check for which button is pressed and update the image accordingly
-        if(random && findViewById(R.id.imageButton).getId() == buttonId){
+        else if(random && findViewById(R.id.imageButton).getId() == buttonId){
             if(x) {
                 ((ImageButton) findViewById(R.id.imageButton)).setImageResource(R.drawable.letter_x);
                 grid[0][0] = 'x';

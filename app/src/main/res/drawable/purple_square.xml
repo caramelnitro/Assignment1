@@ -5,4 +5,10 @@
     <size
         android:width="100dp"
         android:height="100dp" />
+    <gradient
+        android:startColor="#760299"
+        android:gradientRadius="1000"
+        android:endColor="#109076"
+        android:type="radial"
+        />
 </shape>

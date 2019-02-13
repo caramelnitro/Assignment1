@@ -798,6 +798,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -851,6 +852,7 @@ layout activity_about
 layout activity_game
 layout activity_main
 layout activity_rules
+layout activity_treble
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

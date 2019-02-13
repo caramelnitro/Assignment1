@@ -3552,22 +3552,23 @@ public final class R {
     public static final int text2=0x7f070092;
     public static final int textSpacerNoButtons=0x7f070093;
     public static final int textSpacerNoTitle=0x7f070094;
-    public static final int time=0x7f070095;
-    public static final int title=0x7f070096;
-    public static final int titleDividerNoCustom=0x7f070097;
-    public static final int title_template=0x7f070098;
-    public static final int top=0x7f070099;
-    public static final int topPanel=0x7f07009a;
-    public static final int trebleButton=0x7f07009b;
-    public static final int treble_textView=0x7f07009c;
-    public static final int turnTv=0x7f07009d;
-    public static final int uniform=0x7f07009e;
-    public static final int up=0x7f07009f;
-    public static final int useLogo=0x7f0700a0;
-    public static final int winnerTv=0x7f0700a1;
-    public static final int withText=0x7f0700a2;
-    public static final int wrap=0x7f0700a3;
-    public static final int wrap_content=0x7f0700a4;
+    public static final int textView=0x7f070095;
+    public static final int time=0x7f070096;
+    public static final int title=0x7f070097;
+    public static final int titleDividerNoCustom=0x7f070098;
+    public static final int title_template=0x7f070099;
+    public static final int top=0x7f07009a;
+    public static final int topPanel=0x7f07009b;
+    public static final int trebleButton=0x7f07009c;
+    public static final int treble_textView=0x7f07009d;
+    public static final int turnTv=0x7f07009e;
+    public static final int uniform=0x7f07009f;
+    public static final int up=0x7f0700a0;
+    public static final int useLogo=0x7f0700a1;
+    public static final int winnerTv=0x7f0700a2;
+    public static final int withText=0x7f0700a3;
+    public static final int wrap=0x7f0700a4;
+    public static final int wrap_content=0x7f0700a5;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3609,16 +3610,17 @@ public final class R {
     public static final int activity_game=0x7f09001d;
     public static final int activity_main=0x7f09001e;
     public static final int activity_rules=0x7f09001f;
-    public static final int notification_action=0x7f090020;
-    public static final int notification_action_tombstone=0x7f090021;
-    public static final int notification_template_custom_big=0x7f090022;
-    public static final int notification_template_icon_group=0x7f090023;
-    public static final int notification_template_part_chronometer=0x7f090024;
-    public static final int notification_template_part_time=0x7f090025;
-    public static final int select_dialog_item_material=0x7f090026;
-    public static final int select_dialog_multichoice_material=0x7f090027;
-    public static final int select_dialog_singlechoice_material=0x7f090028;
-    public static final int support_simple_spinner_dropdown_item=0x7f090029;
+    public static final int activity_treble=0x7f090020;
+    public static final int notification_action=0x7f090021;
+    public static final int notification_action_tombstone=0x7f090022;
+    public static final int notification_template_custom_big=0x7f090023;
+    public static final int notification_template_icon_group=0x7f090024;
+    public static final int notification_template_part_chronometer=0x7f090025;
+    public static final int notification_template_part_time=0x7f090026;
+    public static final int select_dialog_item_material=0x7f090027;
+    public static final int select_dialog_multichoice_material=0x7f090028;
+    public static final int select_dialog_singlechoice_material=0x7f090029;
+    public static final int support_simple_spinner_dropdown_item=0x7f09002a;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;

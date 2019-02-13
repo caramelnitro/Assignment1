@@ -29,7 +29,14 @@
         </activity>
         <activity
             android:name="apsu.edu.assignment1.GameActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="apsu.edu.assignment1.TrebleActivity"
             android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="apsu.edu.assignment1.AboutActivity"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

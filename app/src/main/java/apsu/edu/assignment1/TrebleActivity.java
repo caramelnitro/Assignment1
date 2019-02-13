@@ -30,6 +30,8 @@ public class TrebleActivity extends AppCompatActivity implements View.OnClickLis
         ib = findViewById(R.id.imageButton7);
         ib.setOnClickListener(this);
 
+        TextView tv = findViewById(R.id.turnTv);
+        tv.setText("Turn: Player 1");
         for(int i=0;i<7;i++){
             grid[i] = (char) i;
         }
@@ -75,6 +77,12 @@ public class TrebleActivity extends AppCompatActivity implements View.OnClickLis
         }
         checkWin();
         player1 = !player1;
+        if(player1){
+            tv.setText("Turn: Player 1");
+        }
+        else{
+            tv.setText("Turn: Player 2");
+        }
     }
     public void checkWin(){
         TextView tv = findViewById(R.id.winnerTv);
@@ -100,6 +108,10 @@ public class TrebleActivity extends AppCompatActivity implements View.OnClickLis
                 tv.setText("Winner: player2");
             }
             tv.setVisibility(View.VISIBLE);
+            findViewById(R.id.imageButton).setClickable(false);
+            for(int i=1;i<7;i++){
+                findViewById(R.id.imageButton + (char) i).setClickable(false);
+            }
         }
     }
 }

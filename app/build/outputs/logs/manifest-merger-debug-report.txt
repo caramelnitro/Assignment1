@@ -90,6 +90,8 @@ ADDED from C:\GitHub\Assignment1\app\src\main\AndroidManifest.xml:19:9-21:20
 		ADDED from C:\GitHub\Assignment1\app\src\main\AndroidManifest.xml:19:19-48
 activity#apsu.edu.assignment1.GameActivity
 ADDED from C:\GitHub\Assignment1\app\src\main\AndroidManifest.xml:22:9-24:20
+	android:screenOrientation
+		ADDED from C:\GitHub\Assignment1\app\src\main\AndroidManifest.xml:22:48-85
 	android:name
 		ADDED from C:\GitHub\Assignment1\app\src\main\AndroidManifest.xml:22:19-47
 uses-sdk

@@ -804,9 +804,11 @@ id title_template
 id top
 id topPanel
 id treble_textView
+id turnTv
 id uniform
 id up
 id useLogo
+id winnerTv
 id withText
 id wrap
 id wrap_content

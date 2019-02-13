@@ -28,7 +28,9 @@
         </activity>
         <activity android:name="apsu.edu.assignment1.RulesActivity" >
         </activity>
-        <activity android:name="apsu.edu.assignment1.GameActivity" >
+        <activity
+            android:name="apsu.edu.assignment1.GameActivity"
+            android:screenOrientation="landscape" >
         </activity>
     </application>
 

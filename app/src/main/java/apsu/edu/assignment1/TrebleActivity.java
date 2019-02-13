@@ -9,6 +9,7 @@ import android.widget.TextView;
 public class TrebleActivity extends AppCompatActivity implements View.OnClickListener {
     private char grid[] = new char[7];
     private boolean win = false;
+    private boolean player1 = true;
     @Override
     public void onCreate(Bundle savedInstance){
         super.onCreate(savedInstance);
@@ -73,8 +74,31 @@ public class TrebleActivity extends AppCompatActivity implements View.OnClickLis
             findViewById(R.id.imageButton7).setClickable(false);
         }
         checkWin();
+        player1 = !player1;
     }
     public void checkWin(){
-
+        TextView tv = findViewById(R.id.winnerTv);
+        if((grid[0] == grid[1]) && (grid[1] == grid[2])){
+            win = true;
+        }
+        else if((grid[1] == grid[2]) && (grid[2] == grid[3])){
+            win = true;
+        }
+        else if((grid[2] == grid[3]) && (grid[3] == grid[4])){
+            win = true;
+        }
+        else if((grid[3] == grid[4]) && (grid[4] == grid[5])){
+            win = true;
+        }
+        else if((grid[4] == grid[5]) && (grid[5] == grid[6])){
+            win = true;
+        }
+        if(win) {
+            if (player1) {
+                tv.setText("Winner: player1");
+            } else {
+                tv.setText("Winner: player2");
+            }
+        }
     }
 }

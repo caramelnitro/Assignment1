@@ -75,7 +75,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                 ((ImageButton) findViewById(R.id.imageButton)).setImageResource(R.drawable.letter_o);
                 grid[0][0] = 'o';
             }
-            findViewById(R.id.imageButton2).setClickable(false);
+            findViewById(R.id.imageButton).setClickable(false);
         }
         else if(random && findViewById(R.id.imageButton2).getId() == buttonId){
             if(x) {
@@ -165,6 +165,8 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             }
             findViewById(R.id.imageButton9).setClickable(false);
         }
+
+        checkWin();
         int rand = r.nextInt(10) + 1;
         if(rand % 2 == 0) {
             x = true;
@@ -174,7 +176,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             x = false;
             tv.setText("Turn: O's");
         }
-        checkWin();
     }
 
     public void checkWin(){
@@ -223,7 +224,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             }
             //display winner text
             tv.setVisibility(View.VISIBLE);
-            String id = "R.id.imageButton";
             //turns off all buttons so game is no longer playable
             for(int i=0; i<9; i++){
                 if(i==0)

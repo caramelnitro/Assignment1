@@ -3557,15 +3557,16 @@ public final class R {
     public static final int title_template=0x7f070098;
     public static final int top=0x7f070099;
     public static final int topPanel=0x7f07009a;
-    public static final int treble_textView=0x7f07009b;
-    public static final int turnTv=0x7f07009c;
-    public static final int uniform=0x7f07009d;
-    public static final int up=0x7f07009e;
-    public static final int useLogo=0x7f07009f;
-    public static final int winnerTv=0x7f0700a0;
-    public static final int withText=0x7f0700a1;
-    public static final int wrap=0x7f0700a2;
-    public static final int wrap_content=0x7f0700a3;
+    public static final int trebleButton=0x7f07009b;
+    public static final int treble_textView=0x7f07009c;
+    public static final int turnTv=0x7f07009d;
+    public static final int uniform=0x7f07009e;
+    public static final int up=0x7f07009f;
+    public static final int useLogo=0x7f0700a0;
+    public static final int winnerTv=0x7f0700a1;
+    public static final int withText=0x7f0700a2;
+    public static final int wrap=0x7f0700a3;
+    public static final int wrap_content=0x7f0700a4;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
